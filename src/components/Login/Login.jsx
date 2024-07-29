@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './Login.css'
 
-const Login = () => {
+// eslint-disable-next-line react/prop-types
+const Login = ({ setUser }) => {
 
     const [nombre, setNombre] = useState("");
     const [error, setError] = useState(false);
@@ -13,12 +14,13 @@ const Login = () => {
             return
         }
         setError(false);
+        setUser([nombre]);
     }
 
     return (
         <div className='form'>
             <form onSubmit={handleSubmit}>
-                <h1>Ingrese su Nombre para continuar...</h1>
+                <h2>Ingrese su Nombre para continuar...</h2>
                 <label>
                     Nombre:
                     <input
