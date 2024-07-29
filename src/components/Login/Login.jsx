@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Login.css'
 
-export const Login = () => {
+const Login = () => {
 
     const [nombre, setNombre] = useState("");
     const [error, setError] = useState(false);
