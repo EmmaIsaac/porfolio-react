@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+}
+
+form label input {
+    width: 200px;
+}
+
+form button {
+    margin: 10px 0;
+}
