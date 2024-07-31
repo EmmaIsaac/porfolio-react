@@ -1,8 +1,8 @@
-import { useState } from "react";
-// import { useContext } from "react";
+import { useState, useContext } from "react";
 import { UserContext } from "./UserContext";
 
-// export const useUser = () => useContext(UserContext);
+// eslint-disable-next-line react-refresh/only-export-components
+export const useUser = () => useContext(UserContext);
 // eslint-disable-next-line react/prop-types
 const UserProvider = ({ children }) => {
 
@@ -11,11 +11,6 @@ const UserProvider = ({ children }) => {
     const updateUser = (nombre) => {
         setUser(nombre);
     }
-
-    // const showname = () => {
-    //     return "Hi " + user;
-    // }
-
 
     return (
         <UserContext.Provider value={{ user, updateUser }}>

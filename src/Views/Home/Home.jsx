@@ -1,19 +1,12 @@
-import { useContext } from 'react';
+// import { useContext } from 'react';
 import Login from '../../components/Login/Login';
 import Profile from '../../components/Profile/Profile'
-
-// import { useState } from 'react';
-
-
+import { useUser } from '../../components/Context/UserProvider';
 import './Home.css'
-import { UserContext } from '../../components/Context/UserContext';
 
 const Home = () => {
 
-    const useUser = () => useContext(UserContext);
     const { user, updateUser } = useUser();
-
-    // const [user, setUser] = useState([]);
 
     return (
         <>
