@@ -1,9 +1,14 @@
-import './Header.css';
+import { useUser } from '../Context/UserProvider';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
+
+    const { user } = useUser();
+
     return (
-        <div>
+        <header>
+            <p>¡Bienvenido {user}!</p>
             <nav>
                 <ul>
                     <li>
@@ -14,7 +19,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-        </div>
+        </header>
     )
 }
 

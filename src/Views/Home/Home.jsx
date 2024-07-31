@@ -14,7 +14,7 @@ const Home = () => {
             {
                 user.length === 0
                     ? <Login setUser={updateUser} />
-                    : <Profile user={user} setUser={updateUser} />
+                    : <Profile />
 
             }
 
