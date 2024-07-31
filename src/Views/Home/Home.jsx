@@ -10,6 +10,7 @@ const Home = () => {
 
     return (
         <>
+
             {
                 user.length === 0
                     ? <Login setUser={updateUser} />

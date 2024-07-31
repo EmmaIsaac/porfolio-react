@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Login.css'
+import Style from './Login.module.css'
 
 // eslint-disable-next-line react/prop-types
 const Login = ({ setUser }) => {
@@ -18,8 +18,8 @@ const Login = ({ setUser }) => {
     }
 
     return (
-        <div className='form'>
-            <form onSubmit={handleSubmit}>
+        <section className={Style.container}>
+            <form className={Style.form} onSubmit={handleSubmit}>
                 <h2>Ingrese su Nombre para continuar...</h2>
                 <label>
                     Nombre:
@@ -31,9 +31,9 @@ const Login = ({ setUser }) => {
                 </label>
                 <button type="submit">Ingresar</button>
 
+                {error && <p>Olvidaste escribir tu nombre.</p>}
             </form>
-            {error && <p>Olvidaste escribir tu nombre.</p>}
-        </div>
+        </section>
     )
 }
 
