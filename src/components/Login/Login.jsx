@@ -20,7 +20,8 @@ const Login = ({ setUser }) => {
     return (
         <section className={Style.container}>
             <form className={Style.form} onSubmit={handleSubmit}>
-                <h2>Ingrese su Nombre para continuar...</h2>
+                <h2>Bienvenid@</h2>
+                <p>Ingrese su nombre para continuar.</p>
                 <label>
                     Nombre:
                     <input

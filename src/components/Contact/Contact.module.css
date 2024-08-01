@@ -1,6 +1,6 @@
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,13 +13,10 @@
     background-color: chocolate;
 }
 
-.form h2,
-.form p {
+.form h1 {
     text-align: center;
-}
-
-.form p {
-    margin-bottom: 10px;
+    text-decoration: underline;
+    margin-bottom: 15px;
 }
 
 .form label {
@@ -27,11 +24,16 @@
     flex-direction: column;
 }
 
-.form label input {
+.form label input,
+.form label textarea {
     margin: 5px 0;
     padding: 5px;
     border-radius: 5px;
     border: none;
+}
+
+.form label textarea {
+    height: 100px;
 }
 
 .form button {
