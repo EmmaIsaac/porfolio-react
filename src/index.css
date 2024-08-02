@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --bg-form: rgb(197, 197, 197);
+    --bx-shadow: 10px 10px 12px -7px rgba(0, 0, 0, 0.39);
+    --bt-hover: rgb(66, 66, 66);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
 }

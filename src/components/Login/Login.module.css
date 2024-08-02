@@ -10,7 +10,8 @@
     width: 400px;
     padding: 30px;
     border-radius: 10px;
-    background-color: chocolate;
+    background-color: var(--bg-form);
+    box-shadow: var(--bx-shadow);
 }
 
 .form h2,
@@ -41,4 +42,10 @@
     width: 100%;
     border: none;
     cursor: pointer;
+}
+
+.form button:hover {
+    background-color: var(--bt-hover);
+    color: white;
+    font-weight: bold;
 }
