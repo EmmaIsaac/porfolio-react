@@ -1,12 +1,15 @@
 import Layout from '../Layout/Layout';
+import Bio from '../Bio/Bio';
 import './Profile.css'
+import About from '../About/About';
 
 const Profile = () => {
 
     return (
 
         <Layout>
-            <h1>Bienvenido a Profile</h1>
+            <Bio />
+            <About />
         </Layout>
 
     )

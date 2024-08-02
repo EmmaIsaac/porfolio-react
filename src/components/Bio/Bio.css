@@ -1,0 +1,16 @@
+.bio {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.bio div>p {
+    font-size: 15px;
+}
+
+.picture {
+    width: 80px;
+    border-radius: 10px;
+}
