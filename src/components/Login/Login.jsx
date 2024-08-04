@@ -32,7 +32,7 @@ const Login = ({ setUser }) => {
                 </label>
                 <button type="submit">Ingresar</button>
 
-                {error && <p>Olvidaste escribir tu nombre.</p>}
+                <p>{error && "Olvidaste escribir tu nombre."}</p>
             </form>
         </section>
     )
