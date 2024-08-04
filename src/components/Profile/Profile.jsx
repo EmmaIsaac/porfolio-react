@@ -1,7 +1,9 @@
 import Layout from '../Layout/Layout';
 import Bio from '../Bio/Bio';
-import './Profile.css'
 import About from '../About/About';
+import Works from '../Works/Works';
+import './Profile.css'
+
 
 const Profile = () => {
 
@@ -10,6 +12,7 @@ const Profile = () => {
         <Layout>
             <Bio />
             <About />
+            <Works />
         </Layout>
 
     )
