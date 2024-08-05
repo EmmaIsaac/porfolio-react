@@ -2,8 +2,9 @@ import Layout from '../Layout/Layout';
 import Bio from '../Bio/Bio';
 import About from '../About/About';
 import Works from '../Works/Works';
-import './Profile.css'
 import Abilities from '../Abilities/Abilities';
+import { Projects } from '../Projects/Projects';
+import './Profile.css'
 
 
 const Profile = () => {
@@ -15,6 +16,7 @@ const Profile = () => {
             <About />
             <Works />
             <Abilities />
+            <Projects />
         </Layout>
 
     )
