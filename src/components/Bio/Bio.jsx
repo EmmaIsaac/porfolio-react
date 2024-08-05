@@ -1,3 +1,4 @@
+import Imagen from '../../assets/img/foto-de-perfil.jpeg'
 import './Bio.css'
 
 const Bio = () => {
@@ -9,7 +10,7 @@ const Bio = () => {
                 <p>Paraná, Argentina.</p>
             </div>
             <div>
-                <img className='picture' src="/public/foto-de-perfil.jpeg" alt="Foto de perfil" />
+                <img className='picture' src={Imagen} alt="Foto de perfil" />
             </div>
         </section>
     )

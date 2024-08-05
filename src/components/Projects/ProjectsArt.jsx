@@ -3,7 +3,7 @@ import './Projects.css'
 export const ProjectsArt = ({ name, url, description }) => {
     return (
         <article className="project">
-            <a href={url}><h3>{name}</h3></a>
+            <a href={url} target='_blank'><h3>{name}</h3></a>
             <p>{description}</p>
         </article>
     )
