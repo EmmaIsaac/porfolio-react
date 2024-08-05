@@ -7,7 +7,7 @@ const Contact = () => {
         <Layout>
             <section className={Style.container}>
                 <form className={Style.form}
-                    action="https://formsubmit.co/filodidacter@gmail.com"
+                    action="https://formsubmit.co/8e100bb8ad63325c0610ccf2e7937e39"
                     method="POST"
                 >
                     <h1>Consultas</h1>
