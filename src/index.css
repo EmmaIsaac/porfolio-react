@@ -23,3 +23,23 @@ a {
     color: var(--font-col);
     text-decoration: none;
 }
+
+@media (max-width: 880px) {
+    section {
+        width: 80%;
+    }
+
+    .bio {
+        justify-content: space-between;
+    }
+
+    .project {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .bio {
+        width: 80%;
+    }
+}
