@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <header>
-            <p>¡Bienvenid@ {user}!</p>
+            <h4>¡Bienvenid@ {user}!</h4>
             <nav>
                 <ul>
                     <li>
