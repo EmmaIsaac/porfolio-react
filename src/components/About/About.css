@@ -3,3 +3,11 @@ section {
     margin: auto;
     padding: 20px;
 }
+
+/* Responsive */
+
+@media (max-width: 880px) {
+    section {
+        width: 80%;
+    }
+}

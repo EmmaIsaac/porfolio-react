@@ -24,6 +24,8 @@ a {
     text-decoration: none;
 }
 
+/* Responsive Design */
+
 @media (max-width: 880px) {
     section {
         width: 80%;

@@ -14,3 +14,17 @@
     width: 80px;
     border-radius: 10px;
 }
+
+/* Responsive */
+
+@media (max-width: 880px) {
+    .bio {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 480px) {
+    .bio {
+        width: 80%;
+    }
+}
